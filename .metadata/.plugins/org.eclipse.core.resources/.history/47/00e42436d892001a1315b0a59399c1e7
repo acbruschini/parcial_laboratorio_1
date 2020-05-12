@@ -1,0 +1,150 @@
+/*
+ * Informes.c
+ *
+ *  Created on: 10 may. 2020
+ *      Author: Ariel
+ */
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "utn.h"
+#include "Cliente.h"
+#include "Publicacion.h"
+
+/**
+ * \brief retorna el id del cliente de una publicacion
+ * \param array Array de las publicaciones
+ * \param limite Limite del array de publicaciones
+ * \param indice El indice de donde va a traer el ID
+ * \return Retorna LEN del nuevo array (EXITO) y -1 (ERROR)
+ *
+ */
+int info_getPublicacionClientesUnicos(int* arrayClientesUnicos,int limiteClientesUnicos,Publicacion* array,int limite)
+{
+	int retorno = -1;
+	int i;
+	int j;
+	int flagExisteCliente;
+	int indiceClienteLibre = 0;
+
+	if (arrayClientesUnicos != NULL && limiteClientesUnicos > 0 && array != NULL && limite > 0)
+	{
+
+
+
+
+		for (i=0;i<limite;i++)
+		{
+			flagExisteCliente = 0;
+
+			if(array[i].isEmpty == 0)
+			{
+
+				for (j=0;j<limiteClientesUnicos;j++)
+				{
+
+					if(array[i].idCliente == arrayClientesUnicos[j])
+					{
+						flagExisteCliente = 1;
+						break;
+					}
+
+
+				}
+
+				if (flagExisteCliente == 0)
+				{
+					arrayClientesUnicos[indiceClienteLibre] = array[i].idCliente;
+					indiceClienteLibre++;
+				}
+
+			}
+
+
+		}
+	}
+	// DEBUG
+
+	for (j=0;j<indiceClienteLibre;j++)
+	{
+
+		printf ("\n arrayClientesUnicos[%d]: %d",j,arrayClientesUnicos[j]);
+
+	}
+
+	retorno = indiceClienteLibre;
+	return retorno;
+}
+/**
+ * \brief Inicializa el array de ID de clientes unicos
+ * \param array Array de los clientes unicos
+ * \param limite Limite del array de clientes unicos
+ * \return Retorna IdCliente (EXITO) y -1 (ERROR)
+ *
+ */
+int info_inicializarArray (int* array,int len)
+{
+	int i;
+	int retorno = -1;
+	if(array != NULL && len>0)
+	{
+		retorno = 0;
+		for (i =0;i<len;i++)
+		{
+			array[i] = 9999999;
+		}
+
+	}
+
+
+	return retorno;
+}
+
+/**
+ * \brief Inicializa el array de ID de clientes unicos
+ * \param array Array de los clientes unicos
+ * \param limite Limite del array de clientes unicos
+ * \return Retorna IdCliente (EXITO) y -1 (ERROR)
+ *
+ */
+int info_clienteConMasAvisos (int* arrayClientesUnicos,int len,Publicacion* arrayPublicaciones,int limitePublicaciones)
+{
+	int retorno = -1;
+	int i;
+	int j;
+	int auxiliarAvisos;
+
+	if (arrayClientesUnicos != NULL && len > 0 && arrayPublicaciones != NULL && limitePublicaciones >0)
+	{
+
+		for (i=0;i<len;i++)
+		{
+			auxiliarAvisos = 0;
+			if (arrayPublicaciones[j].isEmpty ==0)
+			{
+
+				for(j=0;j<limitePublicaciones;j++)
+				{
+
+					if (arrayClientesUnicos[i] == arrayPublicaciones[j].idCliente)
+					{
+
+						auxiliarAvisos++;
+
+					}
+
+				}
+
+				printf ("\nCliente: %d - Auxliar avisos: %d",arrayClientesUnicos[i],auxiliarAvisos);
+
+			}
+
+		}
+
+
+	}
+
+	return retorno;
+}

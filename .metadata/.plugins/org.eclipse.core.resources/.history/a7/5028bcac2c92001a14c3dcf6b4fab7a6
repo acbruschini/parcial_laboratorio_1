@@ -1,0 +1,30 @@
+#ifndef PUBLICACION_H_
+#define PUBLICACION_H_
+#include "Cliente.h"
+//#define NOMBRE_LEN 50
+#define TEXTO_LEN 64
+//#define CUIT_LEN 20
+
+typedef struct
+{
+	int id;
+	//char nombre[NOMBRE_LEN];
+	char texto[TEXTO_LEN];
+	int rubro; // Agregado
+	int idCliente; // Agregado
+	int estado;
+	//char cuit[CUIT_LEN];
+	int isEmpty;
+}Publicacion;
+
+int pub_imprimir(Publicacion* auxProducto);
+int pub_inicializarArray(Publicacion* array,int limite);
+int pub_altaArray(Publicacion* array,int limite,Cliente* arrayClientes,int limiteClientes,int indice, int* id);
+int pub_getEmptyIndex(Publicacion* array,int limite);
+int pub_imprimirArray(Publicacion* array,int limite);
+int pub_buscarId(Publicacion array[], int limite, int valorBuscado);
+int pub_modificarArray(Publicacion* array,int limite, int indice);
+int pub_bajaArray(Publicacion* array,int limite, int indice);
+int pub_ordenarPorNombre(Publicacion* array,int limite);
+
+#endif /* PUBLICACION_H_ */

@@ -1,0 +1,2368 @@
+11:36:00 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+16:14:37 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+16:22:31 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+16:24:35 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+16:26:51 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+16:33:44 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+..\src\Publicacion.c:10: warning: "TEXTO_LEN" redefined
+   10 | #define TEXTO_LEN 64
+      | 
+In file included from ..\src\Publicacion.c:1:
+..\src\Publicacion.h:5: note: this is the location of the previous definition
+    5 | #define TEXTO_LEN 500
+      | 
+..\src\Publicacion.c:82:5: error: conflicting types for 'pub_altaArray'
+   82 | int pub_altaArray(Publicacion* array,int limite,Cliente* arrayClientes,int limiteClientes,int indice, int* id)
+      |     ^~~~~~~~~~~~~
+In file included from ..\src\Publicacion.c:1:
+..\src\Publicacion.h:22:5: note: previous declaration of 'pub_altaArray' was here
+   22 | int pub_altaArray(Publicacion* array,int limite, int indice, int* id);
+      |     ^~~~~~~~~~~~~
+16:34:34 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+..\src\Publicacion.c:81:5: error: conflicting types for 'pub_altaArray'
+   81 | int pub_altaArray(Publicacion* array,int limite,Cliente* arrayClientes,int limiteClientes,int indice, int* id)
+      |     ^~~~~~~~~~~~~
+In file included from ..\src\Publicacion.c:1:
+..\src\Publicacion.h:22:5: note: previous declaration of 'pub_altaArray' was here
+   22 | int pub_altaArray(Publicacion* array,int limite, int indice, int* id);
+      |     ^~~~~~~~~~~~~
+16:35:30 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+..\src\Publicacion.c:81:5: error: conflicting types for 'pub_altaArray'
+   81 | int pub_altaArray(Publicacion* array,int limite,int limiteClientes,int indice, int* id)
+      |     ^~~~~~~~~~~~~
+In file included from ..\src\Publicacion.c:1:
+..\src\Publicacion.h:22:5: note: previous declaration of 'pub_altaArray' was here
+   22 | int pub_altaArray(Publicacion* array,int limite, int indice, int* id);
+      |     ^~~~~~~~~~~~~
+..\src\Publicacion.c: In function 'pub_altaArray':
+..\src\Publicacion.c:88:26: error: 'arrayClientes' undeclared (first use in this function)
+   88 |   if( !cli_imprimirArray(arrayClientes, limiteClientes) &&
+      |                          ^~~~~~~~~~~~~
+..\src\Publicacion.c:88:26: note: each undeclared identifier is reported only once for each function it appears in
+16:35:51 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+..\src\Publicacion.c:81:5: error: conflicting types for 'pub_altaArray'
+   81 | int pub_altaArray(Publicacion* array,int limite,Cliente* arrayClientes,int limiteClientes,int indice, int* id)
+      |     ^~~~~~~~~~~~~
+In file included from ..\src\Publicacion.c:1:
+..\src\Publicacion.h:22:5: note: previous declaration of 'pub_altaArray' was here
+   22 | int pub_altaArray(Publicacion* array,int limite, int indice, int* id);
+      |     ^~~~~~~~~~~~~
+16:36:41 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+In file included from ..\src\Publicacion.c:1:
+..\src\Publicacion.h:22:49: error: unknown type name 'Cliente'
+   22 | int pub_altaArray(Publicacion* array,int limite,Cliente* arrayClientes,int limiteClientes,int indice, int* id);
+      |                                                 ^~~~~~~
+16:37:33 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:37:39 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+16:38:55 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+In file included from ..\src\Cliente.h:4,
+                 from ..\src\Cliente.c:5:
+..\src\Publicacion.h:21:49: error: unknown type name 'Cliente'
+   21 | int pub_altaArray(Publicacion* array,int limite,Cliente* arrayClientes,int limiteClientes,int indice, int* id);
+      |                                                 ^~~~~~~
+16:39:05 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+In file included from ..\src\Cliente.h:4,
+                 from ..\src\Cliente.c:5:
+..\src\Publicacion.h:21:49: error: unknown type name 'Cliente'
+   21 | int pub_altaArray(Publicacion* array,int limite,Cliente* arrayClientes,int limiteClientes,int indice, int* id);
+      |                                                 ^~~~~~~
+16:39:22 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+Info: Nothing to build for Parcial1
+16:45:25 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:92:126: warning: passing argument 6 of 'pub_altaArray' makes pointer from integer without a cast [-Wint-conversion]
+   92 |      !pub_altaArray(arrayPublicaciones, ARRAYPUBLICACIONES_LEN, arrayClientes, ARRAYCLIENTES_LEN, auxiliarIndicePublicacion, idPublicacion))
+      |                                                                                                                              ^~~~~~~~~~~~~
+      |                                                                                                                              |
+      |                                                                                                                              int
+In file included from ..\src\Parcial1.c:16:
+..\src\Publicacion.h:21:108: note: expected 'int *' but argument is of type 'int'
+   21 | int pub_altaArray(Publicacion* array,int limite,Cliente* arrayClientes,int limiteClientes,int indice, int* id);
+      |                                                                                                       ~~~~~^~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+16:45:38 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+16:48:05 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+16:49:25 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:49:29 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+16:52:06 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:52:09 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+16:53:53 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+16:58:10 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+17:02:23 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+17:03:58 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+Info: Nothing to build for Parcial1
+17:06:00 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+17:06:41 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:06:44 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+17:10:02 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+17:14:19 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+17:17:07 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+17:18:59 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:19:02 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+17:25:49 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+17:28:06 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+17:31:06 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+17:50:53 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+..\src\Publicacion.c: In function 'pub_imprimirArrayByIdCliente':
+..\src\Publicacion.c:262:27: warning: comparison between pointer and integer
+  262 |    if(&array[i].idCliente == idCliente)
+      |                           ^~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+17:51:49 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+17:53:05 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+17:57:37 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:57:41 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+18:12:01 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'utn_getConfirmacion':
+..\src\utn.c:152:25: warning: passing argument 2 of 'strncmp' makes pointer from integer without a cast [-Wint-conversion]
+  152 |        (!strncmp(buffer,opcion1,sizeof(buffer)) || !strncmp(buffer,opcion2,sizeof(buffer))))
+      |                         ^~~~~~~
+      |                         |
+      |                         char
+In file included from ..\src\utn.c:10:
+c:\mingw\include\string.h:85:61: note: expected 'const char *' but argument is of type 'char'
+   85 | _CRTIMP __cdecl __MINGW_NOTHROW  int strncmp (const char *, const char *, size_t) __MINGW_ATTRIB_PURE;
+      |                                                             ^~~~~~~~~~~~
+..\src\utn.c:152:68: warning: passing argument 2 of 'strncmp' makes pointer from integer without a cast [-Wint-conversion]
+  152 |        (!strncmp(buffer,opcion1,sizeof(buffer)) || !strncmp(buffer,opcion2,sizeof(buffer))))
+      |                                                                    ^~~~~~~
+      |                                                                    |
+      |                                                                    char
+In file included from ..\src\utn.c:10:
+c:\mingw\include\string.h:85:61: note: expected 'const char *' but argument is of type 'char'
+   85 | _CRTIMP __cdecl __MINGW_NOTHROW  int strncmp (const char *, const char *, size_t) __MINGW_ATTRIB_PURE;
+      |                                                             ^~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:100:26: warning: passing argument 1 of 'utn_getConfirmacion' from incompatible pointer type [-Wincompatible-pointer-types]
+  100 |      utn_getConfirmacion(&auxiliarPregunta, "\nEsta seguro que quiere dar de baja al cliente %d y todas sus publicaciones? (S o N): ", "\nERROR\n", "S", "N", 2);
+      |                          ^~~~~~~~~~~~~~~~~
+      |                          |
+      |                          int *
+In file included from ..\src\Parcial1.c:14:
+..\src\utn.h:14:31: note: expected 'char *' but argument is of type 'int *'
+   14 | int utn_getConfirmacion(char* pResultado, char* mensaje, char* mensajeError, char opcion1, char opcion2, int reintentos);
+      |                         ~~~~~~^~~~~~~~~~
+..\src\Parcial1.c:100:149: warning: passing argument 4 of 'utn_getConfirmacion' makes integer from pointer without a cast [-Wint-conversion]
+  100 |      utn_getConfirmacion(&auxiliarPregunta, "\nEsta seguro que quiere dar de baja al cliente %d y todas sus publicaciones? (S o N): ", "\nERROR\n", "S", "N", 2);
+      |                                                                                                                                                     ^~~
+      |                                                                                                                                                     |
+      |                                                                                                                                                     char *
+In file included from ..\src\Parcial1.c:14:
+..\src\utn.h:14:83: note: expected 'char' but argument is of type 'char *'
+   14 | int utn_getConfirmacion(char* pResultado, char* mensaje, char* mensajeError, char opcion1, char opcion2, int reintentos);
+      |                                                                              ~~~~~^~~~~~~
+..\src\Parcial1.c:100:154: warning: passing argument 5 of 'utn_getConfirmacion' makes integer from pointer without a cast [-Wint-conversion]
+  100 |      utn_getConfirmacion(&auxiliarPregunta, "\nEsta seguro que quiere dar de baja al cliente %d y todas sus publicaciones? (S o N): ", "\nERROR\n", "S", "N", 2);
+      |                                                                                                                                                          ^~~
+      |                                                                                                                                                          |
+      |                                                                                                                                                          char *
+In file included from ..\src\Parcial1.c:14:
+..\src\utn.h:14:97: note: expected 'char' but argument is of type 'char *'
+   14 | int utn_getConfirmacion(char* pResultado, char* mensaje, char* mensajeError, char opcion1, char opcion2, int reintentos);
+      |                                                                                            ~~~~~^~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:12:39 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:100:26: warning: passing argument 1 of 'utn_getConfirmacion' from incompatible pointer type [-Wincompatible-pointer-types]
+  100 |      utn_getConfirmacion(&auxiliarPregunta, "\nEsta seguro que quiere dar de baja al cliente %d y todas sus publicaciones? (S o N): ", "\nERROR\n", "S", "N", 2);
+      |                          ^~~~~~~~~~~~~~~~~
+      |                          |
+      |                          char (*)[2]
+In file included from ..\src\Parcial1.c:14:
+..\src\utn.h:14:31: note: expected 'char *' but argument is of type 'char (*)[2]'
+   14 | int utn_getConfirmacion(char* pResultado, char* mensaje, char* mensajeError, char opcion1, char opcion2, int reintentos);
+      |                         ~~~~~~^~~~~~~~~~
+..\src\Parcial1.c:100:149: warning: passing argument 4 of 'utn_getConfirmacion' makes integer from pointer without a cast [-Wint-conversion]
+  100 |      utn_getConfirmacion(&auxiliarPregunta, "\nEsta seguro que quiere dar de baja al cliente %d y todas sus publicaciones? (S o N): ", "\nERROR\n", "S", "N", 2);
+      |                                                                                                                                                     ^~~
+      |                                                                                                                                                     |
+      |                                                                                                                                                     char *
+In file included from ..\src\Parcial1.c:14:
+..\src\utn.h:14:83: note: expected 'char' but argument is of type 'char *'
+   14 | int utn_getConfirmacion(char* pResultado, char* mensaje, char* mensajeError, char opcion1, char opcion2, int reintentos);
+      |                                                                              ~~~~~^~~~~~~
+..\src\Parcial1.c:100:154: warning: passing argument 5 of 'utn_getConfirmacion' makes integer from pointer without a cast [-Wint-conversion]
+  100 |      utn_getConfirmacion(&auxiliarPregunta, "\nEsta seguro que quiere dar de baja al cliente %d y todas sus publicaciones? (S o N): ", "\nERROR\n", "S", "N", 2);
+      |                                                                                                                                                          ^~~
+      |                                                                                                                                                          |
+      |                                                                                                                                                          char *
+In file included from ..\src\Parcial1.c:14:
+..\src\utn.h:14:97: note: expected 'char' but argument is of type 'char *'
+   14 | int utn_getConfirmacion(char* pResultado, char* mensaje, char* mensajeError, char opcion1, char opcion2, int reintentos);
+      |                                                                                            ~~~~~^~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+18:13:08 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:100:148: warning: passing argument 4 of 'utn_getConfirmacion' makes integer from pointer without a cast [-Wint-conversion]
+  100 |      utn_getConfirmacion(auxiliarPregunta, "\nEsta seguro que quiere dar de baja al cliente %d y todas sus publicaciones? (S o N): ", "\nERROR\n", "S", "N", 2);
+      |                                                                                                                                                    ^~~
+      |                                                                                                                                                    |
+      |                                                                                                                                                    char *
+In file included from ..\src\Parcial1.c:14:
+..\src\utn.h:14:83: note: expected 'char' but argument is of type 'char *'
+   14 | int utn_getConfirmacion(char* pResultado, char* mensaje, char* mensajeError, char opcion1, char opcion2, int reintentos);
+      |                                                                              ~~~~~^~~~~~~
+..\src\Parcial1.c:100:153: warning: passing argument 5 of 'utn_getConfirmacion' makes integer from pointer without a cast [-Wint-conversion]
+  100 |      utn_getConfirmacion(auxiliarPregunta, "\nEsta seguro que quiere dar de baja al cliente %d y todas sus publicaciones? (S o N): ", "\nERROR\n", "S", "N", 2);
+      |                                                                                                                                                         ^~~
+      |                                                                                                                                                         |
+      |                                                                                                                                                         char *
+In file included from ..\src\Parcial1.c:14:
+..\src\utn.h:14:97: note: expected 'char' but argument is of type 'char *'
+   14 | int utn_getConfirmacion(char* pResultado, char* mensaje, char* mensajeError, char opcion1, char opcion2, int reintentos);
+      |                                                                                            ~~~~~^~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+18:14:09 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+18:20:28 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+18:26:03 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:26:06 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+Info: Nothing to build for Parcial1
+18:27:14 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:100:187: error: expected ')' before ';' token
+  100 |      printf ("la opcion fue %d",utn_getConfirmacion(auxiliarPregunta, "\nEsta seguro que quiere dar de baja al cliente %d y todas sus publicaciones? (S o N): ", "\nERROR\n", "S", "N", 2);
+      |                                                                                                                                                                                           ^
+      |                                                                                                                                                                                           )
+..\src\Parcial1.c:100:188: error: expected ';' before '}' token
+  100 |      printf ("la opcion fue %d",utn_getConfirmacion(auxiliarPregunta, "\nEsta seguro que quiere dar de baja al cliente %d y todas sus publicaciones? (S o N): ", "\nERROR\n", "S", "N", 2);
+      |                                                                                                                                                                                            ^
+      |                                                                                                                                                                                            ;
+  101 |     }
+      |     ~                                                                                                                                                                                       
+18:27:33 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+18:29:23 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:32:45 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:100:6: warning: implicit declaration of function 'utn_getConfirmacion'; did you mean 'utn_isConfirmacion'? [-Wimplicit-function-declaration]
+  100 |      utn_getConfirmacion(auxiliarPregunta, "\nEsta seguro que quiere dar de baja al cliente %d y todas sus publicaciones? (S o N): ", "\nERROR\n", "S", "N", 2);
+      |      ^~~~~~~~~~~~~~~~~~~
+      |      utn_isConfirmacion
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\Parcial1.o: in function `main':
+D:\Dropbox\Personal\Programacion\Programacion1_Lab_1\workspace\parcial_laboratorio_1\Parcial1\Debug/../src/Parcial1.c:100: undefined reference to `utn_getConfirmacion'
+collect2.exe: error: ld returned 1 exit status
+18:33:01 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:100:152: warning: passing argument 5 of 'utn_isConfirmacion' makes integer from pointer without a cast [-Wint-conversion]
+  100 |      utn_isConfirmacion(auxiliarPregunta, "\nEsta seguro que quiere dar de baja al cliente %d y todas sus publicaciones? (S o N): ", "\nERROR\n", "S", "N", 2);
+      |                                                                                                                                                        ^~~
+      |                                                                                                                                                        |
+      |                                                                                                                                                        char *
+In file included from ..\src\Parcial1.c:14:
+..\src\utn.h:14:93: note: expected 'int' but argument is of type 'char *'
+   14 | int utn_isConfirmacion(char* mensaje, char* mensajeError, char* opcion1, char* opcion2, int reintentos);
+      |                                                                                         ~~~~^~~~~~~~~~
+..\src\Parcial1.c:100:6: error: too many arguments to function 'utn_isConfirmacion'
+  100 |      utn_isConfirmacion(auxiliarPregunta, "\nEsta seguro que quiere dar de baja al cliente %d y todas sus publicaciones? (S o N): ", "\nERROR\n", "S", "N", 2);
+      |      ^~~~~~~~~~~~~~~~~~
+In file included from ..\src\Parcial1.c:14:
+..\src\utn.h:14:5: note: declared here
+   14 | int utn_isConfirmacion(char* mensaje, char* mensajeError, char* opcion1, char* opcion2, int reintentos);
+      |     ^~~~~~~~~~~~~~~~~~
+18:33:18 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:113:5: error: 'auxiliarIndicePublicacion' undeclared (first use in this function); did you mean 'auxiliarIndiceCliente'?
+  113 |     auxiliarIndicePublicacion = pub_getEmptyIndex(arrayPublicaciones,ARRAYPUBLICACIONES_LEN);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |     auxiliarIndiceCliente
+..\src\Parcial1.c:113:5: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Parcial1.c:32:7: warning: unused variable 'auxiliarPregunta' [-Wunused-variable]
+   32 |  char auxiliarPregunta[2];
+      |       ^~~~~~~~~~~~~~~~
+18:33:33 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+18:35:20 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+18:37:18 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+18:40:35 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+18:42:19 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+..\src\Cliente.c: In function 'cli_imprimir':
+..\src\Cliente.c:20:153: error: 'Cliente' {aka 'struct <anonymous>'} has no member named 'cuitp'; did you mean 'cuit'?
+   20 |   printf("\nCLIENTE ID: %d - NOMBRE: %s - APELLIDO: %s - CUIT: %s - [DEBUG isEmpty]: %d",pElemento->id,pElemento->nombre,pElemento->apellido,pElemento->cuitp,Elemento->isEmpty);
+      |                                                                                                                                                         ^~~~~
+      |                                                                                                                                                         cuit
+..\src\Cliente.c:20:159: error: 'Elemento' undeclared (first use in this function); did you mean 'pElemento'?
+   20 |   printf("\nCLIENTE ID: %d - NOMBRE: %s - APELLIDO: %s - CUIT: %s - [DEBUG isEmpty]: %d",pElemento->id,pElemento->nombre,pElemento->apellido,pElemento->cuitp,Elemento->isEmpty);
+      |                                                                                                                                                               ^~~~~~~~
+      |                                                                                                                                                               pElemento
+..\src\Cliente.c:20:159: note: each undeclared identifier is reported only once for each function it appears in
+18:42:30 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+18:43:22 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:46:30 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+18:51:41 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+18:52:30 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+18:54:06 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+18:56:56 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+19:04:32 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+19:06:00 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+19:07:51 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+19:08:56 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+19:17:48 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+19:18:57 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+07:20:09 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+07:22:23 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+07:30:39 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:21:28: error: expected ']' before ';' token
+   21 | #define STRINGESTADO_LEN 10;
+      |                            ^
+..\src\Parcial1.c:35:28: note: in expansion of macro 'STRINGESTADO_LEN'
+   35 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |                            ^~~~~~~~~~~~~~~~
+07:30:50 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:35:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   35 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+07:42:51 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+In file included from ..\src\Parcial1.c:16:
+..\src\Publicacion.h:33:80: error: conflicting types for 'array'
+   33 | int pub_pausarPublicacion(Publicacion* array,int limitePublicaciones, Cliente* array, int limiteCliente, int idPublicacion);
+      |                                                                       ~~~~~~~~~^~~~~
+..\src\Publicacion.h:33:40: note: previous definition of 'array' was here
+   33 | int pub_pausarPublicacion(Publicacion* array,int limitePublicaciones, Cliente* array, int limiteCliente, int idPublicacion);
+      |                           ~~~~~~~~~~~~~^~~~~
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:36:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   36 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+07:43:44 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:36:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   36 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+07:55:59 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:151:121: error: called object is not a function or function pointer
+  151 |        (auxiliarIndicePublicacion = pub_buscarId(arrayPublicaciones, ARRAYPUBLICACIONES_LEN, auxiliarIdPublicacion)) >= 0
+      |                                                                                                                         ^
+..\src\Parcial1.c:36:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   36 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+07:56:23 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:36:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   36 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+07:58:42 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:36:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   36 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+07:58:47 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+08:02:09 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:154:35: error: incompatible type for argument 1 of 'cli_imprimir'
+  154 |        !cli_imprimir(arrayClientes[auxiliarIndiceCliente])
+      |                      ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+      |                                   |
+      |                                   Cliente {aka struct <anonymous>}
+In file included from ..\src\Parcial1.c:15:
+..\src\Cliente.h:17:27: note: expected 'Cliente *' {aka 'struct <anonymous> *'} but argument is of type 'Cliente' {aka 'struct <anonymous>'}
+   17 | int cli_imprimir(Cliente* auxProducto);
+      |                  ~~~~~~~~~^~~~~~~~~~~
+..\src\Parcial1.c:36:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   36 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+08:03:17 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:36:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   36 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+08:03:22 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+08:10:53 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:36:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   36 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+08:10:58 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+08:15:39 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+08:15:43 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+08:16:48 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:36:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   36 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+Info: Nothing to build for Parcial1
+08:18:46 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:36:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   36 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+08:27:30 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:36:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   36 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+08:29:45 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:36:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   36 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+08:30:47 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:36:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   36 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+08:35:12 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:36:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   36 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+08:40:12 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+08:43:14 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:36:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   36 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+08:44:17 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:36:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   36 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+Info: Nothing to build for Parcial1
+08:48:39 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:36:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   36 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+08:49:55 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:36:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   36 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+08:50:46 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:36:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   36 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+08:52:27 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+08:53:47 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+08:55:01 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+09:01:01 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:36:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   36 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+09:13:19 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+In file included from ..\src\Parcial1.c:15:
+..\src\Cliente.h:22:73: error: unknown type name 'Publicacion'
+   22 | int cli_imprimirArrayClientesConAvisosActivos(Cliente* array,int limite,Publicacion* arrayPublicacion,int limitePublicacion);
+      |                                                                         ^~~~~~~~~~~
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:36:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   36 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+09:13:32 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+In file included from ..\src\Cliente.c:5:
+..\src\Cliente.h:22:73: error: unknown type name 'Publicacion'
+   22 | int cli_imprimirArrayClientesConAvisosActivos(Cliente* array,int limite,Publicacion* arrayPublicacion,int limitePublicacion);
+      |                                                                         ^~~~~~~~~~~
+09:14:11 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+In file included from ..\src\Cliente.h:8,
+                 from ..\src\Cliente.c:5:
+..\src\Publicacion.h:22:49: error: unknown type name 'Cliente'
+   22 | int pub_altaArray(Publicacion* array,int limite,Cliente* arrayClientes,int limiteClientes,int indice, int* id);
+      |                                                 ^~~~~~~
+09:15:14 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+In file included from ..\src\Parcial1.c:15:
+..\src\Cliente.h:24:73: error: unknown type name 'Publicacion'
+   24 | int cli_imprimirArrayClientesConAvisosActivos(Cliente* array,int limite,Publicacion* arrayPublicacion,int limitePublicacion);
+      |                                                                         ^~~~~~~~~~~
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:36:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   36 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+09:15:52 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+In file included from ..\src\Cliente.h:4,
+                 from ..\src\Cliente.c:5:
+..\src\Publicacion.h:22:49: error: unknown type name 'Cliente'
+   22 | int pub_altaArray(Publicacion* array,int limite,Cliente* arrayClientes,int limiteClientes,int indice, int* id);
+      |                                                 ^~~~~~~
+09:16:04 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+In file included from ..\src\Cliente.h:4,
+                 from ..\src\Parcial1.c:15:
+..\src\Publicacion.h:22:49: error: unknown type name 'Cliente'
+   22 | int pub_altaArray(Publicacion* array,int limite,Cliente* arrayClientes,int limiteClientes,int indice, int* id);
+      |                                                 ^~~~~~~
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:139:7: warning: implicit declaration of function 'pub_altaArray'; did you mean 'cli_altaArray'? [-Wimplicit-function-declaration]
+  139 |      !pub_altaArray(arrayPublicaciones, ARRAYPUBLICACIONES_LEN, arrayClientes, ARRAYCLIENTES_LEN, auxiliarIndicePublicacion, &idPublicacion))
+      |       ^~~~~~~~~~~~~
+      |       cli_altaArray
+..\src\Parcial1.c:36:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   36 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+09:19:40 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+In file included from ..\src\Cliente.c:5:
+..\src\Publicacion.h:21:49: error: unknown type name 'Cliente'
+   21 | int pub_altaArray(Publicacion* array,int limite,Cliente* arrayClientes,int limiteClientes,int indice, int* id);
+      |                                                 ^~~~~~~
+..\src\Cliente.c:13:18: error: unknown type name 'Cliente'
+   13 | int cli_imprimir(Cliente* pElemento)
+      |                  ^~~~~~~
+..\src\Cliente.c:31:23: error: unknown type name 'Cliente'
+   31 | int cli_imprimirArray(Cliente* array,int limite)
+      |                       ^~~~~~~
+..\src\Cliente.c:53:47: error: unknown type name 'Cliente'
+   53 | int cli_imprimirArrayClientesConAvisosActivos(Cliente* array,int limite,Publicacion* arrayPublicacion,int limitePublicacion)
+      |                                               ^~~~~~~
+..\src\Cliente.c:84:26: error: unknown type name 'Cliente'
+   84 | int cli_inicializarArray(Cliente* array,int limite)
+      |                          ^~~~~~~
+..\src\Cliente.c:108:19: error: unknown type name 'Cliente'
+  108 | int cli_altaArray(Cliente* array,int limite, int indice, int* id)
+      |                   ^~~~~~~
+..\src\Cliente.c:138:24: error: unknown type name 'Cliente'
+  138 | int cli_modificarArray(Cliente* array,int limite, int indice)
+      |                        ^~~~~~~
+..\src\Cliente.c:166:19: error: unknown type name 'Cliente'
+  166 | int cli_bajaArray(Cliente* array,int limite, int indice)
+      |                   ^~~~~~~
+..\src\Cliente.c:187:18: error: unknown type name 'Cliente'
+  187 | int cli_buscarId(Cliente array[], int limite, int valorBuscado)
+      |                  ^~~~~~~
+..\src\Cliente.c:212:23: error: unknown type name 'Cliente'
+  212 | int cli_getEmptyIndex(Cliente* array,int limite)
+      |                       ^~~~~~~
+..\src\Cliente.c:238:26: error: unknown type name 'Cliente'
+  238 | int cli_ordenarPorNombre(Cliente* array,int limite)
+      |                          ^~~~~~~
+..\src\Cliente.c:278:26: error: unknown type name 'Cliente'
+  278 | int cli_altaForzadaArray(Cliente* array,int limite, int indice, int* id, char* nombre, char *apellido, char* cuit)
+      |                          ^~~~~~~
+09:20:55 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+In file included from ..\src\Cliente.c:5:
+..\src\Cliente.h:25:73: error: unknown type name 'Publicacion'
+   25 | int cli_imprimirArrayClientesConAvisosActivos(Cliente* array,int limite,Publicacion* arrayPublicacion,int limitePublicacion);
+      |                                                                         ^~~~~~~~~~~
+09:21:36 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+In file included from ..\src\Cliente.h:5,
+                 from ..\src\Parcial1.c:15:
+..\src\Publicacion.h:22:49: error: unknown type name 'Cliente'
+   22 | int pub_altaArray(Publicacion* array,int limite,Cliente* arrayClientes,int limiteClientes,int indice, int* id);
+      |                                                 ^~~~~~~
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:139:7: warning: implicit declaration of function 'pub_altaArray'; did you mean 'cli_altaArray'? [-Wimplicit-function-declaration]
+  139 |      !pub_altaArray(arrayPublicaciones, ARRAYPUBLICACIONES_LEN, arrayClientes, ARRAYCLIENTES_LEN, auxiliarIndicePublicacion, &idPublicacion))
+      |       ^~~~~~~~~~~~~
+      |       cli_altaArray
+..\src\Parcial1.c:36:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   36 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+09:22:02 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+In file included from ..\src\Cliente.h:5,
+                 from ..\src\Publicacion.c:5:
+..\src\Publicacion.h:23:49: error: unknown type name 'Cliente'
+   23 | int pub_altaArray(Publicacion* array,int limite,Cliente* arrayClientes,int limiteClientes,int indice, int* id);
+      |                                                 ^~~~~~~
+09:23:10 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+In file included from ..\src\Cliente.c:5:
+..\src\Cliente.h:24:73: error: unknown type name 'Publicacion'
+   24 | int cli_imprimirArrayClientesConAvisosActivos(Cliente* array,int limite,Publicacion* arrayPublicacion,int limitePublicacion);
+      |                                                                         ^~~~~~~~~~~
+09:23:24 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+In file included from ..\src\Cliente.c:5:
+..\src\Cliente.h:24:73: error: unknown type name 'Publicacion'
+   24 | int cli_imprimirArrayClientesConAvisosActivos(Cliente* array,int limite,Publicacion* arrayPublicacion,int limitePublicacion);
+      |                                                                         ^~~~~~~~~~~
+09:25:29 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+In file included from ..\src\Cliente.c:5:
+..\src\Cliente.h:24:73: error: unknown type name 'Publicacion'
+   24 | int cli_imprimirArrayClientesConAvisosActivos(Cliente* array,int limite,Publicacion* arrayPublicacion,int limitePublicacion);
+      |                                                                         ^~~~~~~~~~~
+09:25:49 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+In file included from ..\src\Cliente.h:8,
+                 from ..\src\Parcial1.c:15:
+..\src\Publicacion.h:21:49: error: unknown type name 'Cliente'
+   21 | int pub_altaArray(Publicacion* array,int limite,Cliente* arrayClientes,int limiteClientes,int indice, int* id);
+      |                                                 ^~~~~~~
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:139:7: warning: implicit declaration of function 'pub_altaArray'; did you mean 'cli_altaArray'? [-Wimplicit-function-declaration]
+  139 |      !pub_altaArray(arrayPublicaciones, ARRAYPUBLICACIONES_LEN, arrayClientes, ARRAYCLIENTES_LEN, auxiliarIndicePublicacion, &idPublicacion))
+      |       ^~~~~~~~~~~~~
+      |       cli_altaArray
+..\src\Parcial1.c:36:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   36 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+09:27:30 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+In file included from ..\src\Parcial1.c:15:
+..\src\Cliente.h:24:73: error: unknown type name 'Publicacion'
+   24 | int cli_imprimirArrayClientesConAvisosActivos(Cliente* array,int limite,Publicacion* arrayPublicacion,int limitePublicacion);
+      |                                                                         ^~~~~~~~~~~
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:36:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   36 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+09:28:01 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+In file included from ..\src\Cliente.h:8,
+                 from ..\src\Parcial1.c:15:
+..\src\Publicacion.h:22:49: error: unknown type name 'Cliente'
+   22 | int pub_altaArray(Publicacion* array,int limite,Cliente* arrayClientes,int limiteClientes,int indice, int* id);
+      |                                                 ^~~~~~~
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:139:7: warning: implicit declaration of function 'pub_altaArray'; did you mean 'cli_altaArray'? [-Wimplicit-function-declaration]
+  139 |      !pub_altaArray(arrayPublicaciones, ARRAYPUBLICACIONES_LEN, arrayClientes, ARRAYCLIENTES_LEN, auxiliarIndicePublicacion, &idPublicacion))
+      |       ^~~~~~~~~~~~~
+      |       cli_altaArray
+..\src\Parcial1.c:36:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   36 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+09:28:49 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+In file included from ..\src\Cliente.h:8,
+                 from ..\src\Cliente.c:5:
+..\src\Publicacion.h:23:49: error: unknown type name 'Cliente'
+   23 | int pub_altaArray(Publicacion* array,int limite,Cliente* arrayClientes,int limiteClientes,int indice, int* id);
+      |                                                 ^~~~~~~
+09:29:03 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:36:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   36 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+09:29:13 **** Rebuild of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:36:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   36 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+09:29:32 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+09:31:07 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+09:32:27 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+09:35:02 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+09:39:09 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+09:39:58 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+09:41:36 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+09:44:29 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+09:49:15 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+09:54:22 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+..\src\Cliente.c: In function 'cli_imprimirArrayClientesConAvisosActivos':
+..\src\Cliente.c:58:6: warning: unused variable 'j' [-Wunused-variable]
+   58 |  int j;
+      |      ^
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+09:56:07 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+..\src\Cliente.c: In function 'cli_imprimirArrayClientesConAvisosActivos':
+..\src\Cliente.c:58:6: warning: unused variable 'j' [-Wunused-variable]
+   58 |  int j;
+      |      ^
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+09:58:31 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+09:59:00 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+10:00:53 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+10:03:10 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+10:03:37 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+10:04:39 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+10:05:21 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+10:06:57 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+10:09:38 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+10:10:32 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+10:15:25 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+10:20:18 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+10:22:01 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+..\src\Cliente.c: In function 'cli_imprimirArrayClientesConAvisos':
+..\src\Cliente.c:75:20: warning: passing argument 1 of 'pub_imprimir' from incompatible pointer type [-Wincompatible-pointer-types]
+   75 |       pub_imprimir(&arrayPublicacion[j].estado);
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                    |
+      |                    int *
+In file included from ..\src\Cliente.h:19,
+                 from ..\src\Cliente.c:5:
+..\src\Publicacion.h:21:31: note: expected 'Publicacion *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+   21 | int pub_imprimir(Publicacion* auxProducto);
+      |                  ~~~~~~~~~~~~~^~~~~~~~~~~
+..\src\Cliente.c:58:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   58 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+10:22:19 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+..\src\Cliente.c: In function 'cli_imprimirArrayClientesConAvisos':
+..\src\Cliente.c:58:7: warning: unused variable 'auxiliarStringEstado' [-Wunused-variable]
+   58 |  char auxiliarStringEstado[STRINGESTADO_LEN];
+      |       ^~~~~~~~~~~~~~~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+10:22:59 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+..\src\Cliente.c: In function 'cli_imprimirArrayClientesConAvisos':
+..\src\Cliente.c:307:1: error: expected declaration or statement at end of input
+  307 | }
+      | ^
+..\src\Cliente.c:307:1: warning: control reaches end of non-void function [-Wreturn-type]
+  307 | }
+      | ^
+At top level:
+..\src\Cliente.c:285:5: warning: 'cli_altaForzadaArray' defined but not used [-Wunused-function]
+  285 | int cli_altaForzadaArray(Cliente* array,int limite, int indice, int* id, char* nombre, char *apellido, char* cuit)
+      |     ^~~~~~~~~~~~~~~~~~~~
+..\src\Cliente.c:245:5: warning: 'cli_ordenarPorNombre' defined but not used [-Wunused-function]
+  245 | int cli_ordenarPorNombre(Cliente* array,int limite)
+      |     ^~~~~~~~~~~~~~~~~~~~
+..\src\Cliente.c:219:5: warning: 'cli_getEmptyIndex' defined but not used [-Wunused-function]
+  219 | int cli_getEmptyIndex(Cliente* array,int limite)
+      |     ^~~~~~~~~~~~~~~~~
+..\src\Cliente.c:194:5: warning: 'cli_buscarId' defined but not used [-Wunused-function]
+  194 | int cli_buscarId(Cliente array[], int limite, int valorBuscado)
+      |     ^~~~~~~~~~~~
+..\src\Cliente.c:173:5: warning: 'cli_bajaArray' defined but not used [-Wunused-function]
+  173 | int cli_bajaArray(Cliente* array,int limite, int indice)
+      |     ^~~~~~~~~~~~~
+..\src\Cliente.c:145:5: warning: 'cli_modificarArray' defined but not used [-Wunused-function]
+  145 | int cli_modificarArray(Cliente* array,int limite, int indice)
+      |     ^~~~~~~~~~~~~~~~~~
+..\src\Cliente.c:115:5: warning: 'cli_altaArray' defined but not used [-Wunused-function]
+  115 | int cli_altaArray(Cliente* array,int limite, int indice, int* id)
+      |     ^~~~~~~~~~~~~
+..\src\Cliente.c:91:5: warning: 'cli_inicializarArray' defined but not used [-Wunused-function]
+   91 | int cli_inicializarArray(Cliente* array,int limite)
+      |     ^~~~~~~~~~~~~~~~~~~~
+10:23:29 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+..\src\Cliente.c: In function 'cli_imprimirArrayClientesConAvisos':
+..\src\Cliente.c:309:1: error: expected declaration or statement at end of input
+  309 | }
+      | ^
+..\src\Cliente.c:309:1: warning: control reaches end of non-void function [-Wreturn-type]
+  309 | }
+      | ^
+At top level:
+..\src\Cliente.c:287:5: warning: 'cli_altaForzadaArray' defined but not used [-Wunused-function]
+  287 | int cli_altaForzadaArray(Cliente* array,int limite, int indice, int* id, char* nombre, char *apellido, char* cuit)
+      |     ^~~~~~~~~~~~~~~~~~~~
+..\src\Cliente.c:247:5: warning: 'cli_ordenarPorNombre' defined but not used [-Wunused-function]
+  247 | int cli_ordenarPorNombre(Cliente* array,int limite)
+      |     ^~~~~~~~~~~~~~~~~~~~
+..\src\Cliente.c:221:5: warning: 'cli_getEmptyIndex' defined but not used [-Wunused-function]
+  221 | int cli_getEmptyIndex(Cliente* array,int limite)
+      |     ^~~~~~~~~~~~~~~~~
+..\src\Cliente.c:196:5: warning: 'cli_buscarId' defined but not used [-Wunused-function]
+  196 | int cli_buscarId(Cliente array[], int limite, int valorBuscado)
+      |     ^~~~~~~~~~~~
+..\src\Cliente.c:175:5: warning: 'cli_bajaArray' defined but not used [-Wunused-function]
+  175 | int cli_bajaArray(Cliente* array,int limite, int indice)
+      |     ^~~~~~~~~~~~~
+..\src\Cliente.c:147:5: warning: 'cli_modificarArray' defined but not used [-Wunused-function]
+  147 | int cli_modificarArray(Cliente* array,int limite, int indice)
+      |     ^~~~~~~~~~~~~~~~~~
+..\src\Cliente.c:117:5: warning: 'cli_altaArray' defined but not used [-Wunused-function]
+  117 | int cli_altaArray(Cliente* array,int limite, int indice, int* id)
+      |     ^~~~~~~~~~~~~
+..\src\Cliente.c:93:5: warning: 'cli_inicializarArray' defined but not used [-Wunused-function]
+   93 | int cli_inicializarArray(Cliente* array,int limite)
+      |     ^~~~~~~~~~~~~~~~~~~~
+10:23:50 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+10:29:34 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+10:30:11 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+10:32:23 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+10:34:26 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+10:34:48 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+10:36:38 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+10:37:53 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+10:41:14 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+..\src\Publicacion.c: In function 'pub_altaArray':
+..\src\Publicacion.c:133:38: warning: implicit declaration of function 's' [-Wimplicit-function-declaration]
+  133 |    array[indice] = bufferPublicacion;s
+      |                                      ^
+..\src\Publicacion.c:134:9: error: lvalue required as increment operand
+  134 |    (*id)++;
+      |         ^~
+10:41:39 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+10:43:09 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+11:49:13 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:222:39: warning: passing argument 1 of 'info_getPublicacionClientesUnicos' from incompatible pointer type [-Wincompatible-pointer-types]
+  222 |     info_getPublicacionClientesUnicos(arrayClientesUnicos, ARRAYCLIENTESUNICOS_LEN, arrayPublicaciones, ARRAYPUBLICACIONES_LEN);
+      |                                       ^~~~~~~~~~~~~~~~~~~
+      |                                       |
+      |                                       int *
+In file included from ..\src\Parcial1.c:17:
+..\src\Informes.h:11:45: note: expected 'char *' but argument is of type 'int *'
+   11 | int info_getPublicacionClientesUnicos(char* arrayClientesUnicos,int limiteClientesUnicos,Publicacion* array,int limite);
+      |                                       ~~~~~~^~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+..\src\Informes.c: In function 'info_getPublicacionClientesUnicos':
+..\src\Informes.c:33:7: warning: unused variable 'j' [-Wunused-variable]
+   33 |   int j;
+      |       ^
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+11:49:58 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+..\src\Informes.c: In function 'info_getPublicacionClientesUnicos':
+..\src\Informes.c:33:7: warning: unused variable 'j' [-Wunused-variable]
+   33 |   int j;
+      |       ^
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+11:51:01 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+..\src\Informes.c: In function 'info_getPublicacionClientesUnicos':
+..\src\Informes.c:33:7: warning: unused variable 'j' [-Wunused-variable]
+   33 |   int j;
+      |       ^
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:51:05 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+11:52:07 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+..\src\Informes.c: In function 'info_getPublicacionClientesUnicos':
+..\src\Informes.c:33:7: warning: unused variable 'j' [-Wunused-variable]
+   33 |   int j;
+      |       ^
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+11:52:39 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:222:39: warning: passing argument 1 of 'info_getPublicacionClientesUnicos' from incompatible pointer type [-Wincompatible-pointer-types]
+  222 |     info_getPublicacionClientesUnicos(arrayClientesUnicos, ARRAYCLIENTESUNICOS_LEN, arrayPublicaciones, ARRAYPUBLICACIONES_LEN);
+      |                                       ^~~~~~~~~~~~~~~~~~~
+      |                                       |
+      |                                       int *
+In file included from ..\src\Parcial1.c:17:
+..\src\Informes.h:11:45: note: expected 'char *' but argument is of type 'int *'
+   11 | int info_getPublicacionClientesUnicos(char* arrayClientesUnicos,int limiteClientesUnicos,Publicacion* array,int limite);
+      |                                       ~~~~~~^~~~~~~~~~~~~~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+11:53:40 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+..\src\Informes.c: In function 'info_getPublicacionClientesUnicos':
+..\src\Informes.c:33:7: warning: unused variable 'j' [-Wunused-variable]
+   33 |   int j;
+      |       ^
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+11:54:21 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+..\src\Informes.c: In function 'info_getPublicacionClientesUnicos':
+..\src\Informes.c:33:7: warning: unused variable 'j' [-Wunused-variable]
+   33 |   int j;
+      |       ^
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+12:06:27 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+..\src\Informes.c: In function 'info_getPublicacionClientesUnicos':
+..\src\Informes.c:57:6: error: invalid type argument of unary '*' (have 'int')
+   57 |      *arrayClientesUnicos[i] = array[i].idCliente;
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+12:06:35 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:06:39 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+12:08:50 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:08:52 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+12:10:13 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:10:16 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+12:11:50 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:11:53 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+12:14:45 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:222:39: warning: passing argument 1 of 'info_getPublicacionClientesUnicos' from incompatible pointer type [-Wincompatible-pointer-types]
+  222 |     info_getPublicacionClientesUnicos(arrayClientesUnicos, ARRAYCLIENTESUNICOS_LEN, arrayPublicaciones, ARRAYPUBLICACIONES_LEN);
+      |                                       ^~~~~~~~~~~~~~~~~~~
+      |                                       |
+      |                                       int *
+In file included from ..\src\Parcial1.c:17:
+..\src\Informes.h:11:45: note: expected 'char *' but argument is of type 'int *'
+   11 | int info_getPublicacionClientesUnicos(char* arrayClientesUnicos,int limiteClientesUnicos,Publicacion* array,int limite);
+      |                                       ~~~~~~^~~~~~~~~~~~~~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+12:14:58 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:222:39: warning: passing argument 1 of 'info_getPublicacionClientesUnicos' from incompatible pointer type [-Wincompatible-pointer-types]
+  222 |     info_getPublicacionClientesUnicos(arrayClientesUnicos, ARRAYCLIENTESUNICOS_LEN, arrayPublicaciones, ARRAYPUBLICACIONES_LEN);
+      |                                       ^~~~~~~~~~~~~~~~~~~
+      |                                       |
+      |                                       int *
+In file included from ..\src\Parcial1.c:17:
+..\src\Informes.h:11:45: note: expected 'char *' but argument is of type 'int *'
+   11 | int info_getPublicacionClientesUnicos(char* arrayClientesUnicos,int limiteClientesUnicos,Publicacion* array,int limite);
+      |                                       ~~~~~~^~~~~~~~~~~~~~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+12:15:25 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:222:39: warning: passing argument 1 of 'info_getPublicacionClientesUnicos' from incompatible pointer type [-Wincompatible-pointer-types]
+  222 |     info_getPublicacionClientesUnicos(arrayClientesUnicos, ARRAYCLIENTESUNICOS_LEN, arrayPublicaciones, ARRAYPUBLICACIONES_LEN);
+      |                                       ^~~~~~~~~~~~~~~~~~~
+      |                                       |
+      |                                       int *
+In file included from ..\src\Parcial1.c:17:
+..\src\Informes.h:11:45: note: expected 'char *' but argument is of type 'int *'
+   11 | int info_getPublicacionClientesUnicos(char* arrayClientesUnicos,int limiteClientesUnicos,Publicacion* array,int limite);
+      |                                       ~~~~~~^~~~~~~~~~~~~~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+12:16:03 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+12:16:19 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+12:18:22 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+..\src\Informes.c: In function 'info_getPublicacionClientesUnicos':
+..\src\Informes.c:72:11: warning: too many arguments for format [-Wformat-extra-args]
+   72 |   printf ("\n arrayClientesUnicos[&d]: %d",j,arrayClientesUnicos[j]);
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:18:31 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:18:33 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+12:25:58 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:26:03 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+12:27:47 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:27:50 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+12:30:32 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:39:31: warning: excess elements in scalar initializer
+   39 |  int arrayClientesUnicos = {9,9,9,9,9,9,9,9,9,9,9,9,9,9,9};
+      |                               ^
+..\src\Parcial1.c:39:31: note: (near initialization for 'arrayClientesUnicos')
+..\src\Parcial1.c:39:33: warning: excess elements in scalar initializer
+   39 |  int arrayClientesUnicos = {9,9,9,9,9,9,9,9,9,9,9,9,9,9,9};
+      |                                 ^
+..\src\Parcial1.c:39:33: note: (near initialization for 'arrayClientesUnicos')
+..\src\Parcial1.c:39:35: warning: excess elements in scalar initializer
+   39 |  int arrayClientesUnicos = {9,9,9,9,9,9,9,9,9,9,9,9,9,9,9};
+      |                                   ^
+..\src\Parcial1.c:39:35: note: (near initialization for 'arrayClientesUnicos')
+..\src\Parcial1.c:39:37: warning: excess elements in scalar initializer
+   39 |  int arrayClientesUnicos = {9,9,9,9,9,9,9,9,9,9,9,9,9,9,9};
+      |                                     ^
+..\src\Parcial1.c:39:37: note: (near initialization for 'arrayClientesUnicos')
+..\src\Parcial1.c:39:39: warning: excess elements in scalar initializer
+   39 |  int arrayClientesUnicos = {9,9,9,9,9,9,9,9,9,9,9,9,9,9,9};
+      |                                       ^
+..\src\Parcial1.c:39:39: note: (near initialization for 'arrayClientesUnicos')
+..\src\Parcial1.c:39:41: warning: excess elements in scalar initializer
+   39 |  int arrayClientesUnicos = {9,9,9,9,9,9,9,9,9,9,9,9,9,9,9};
+      |                                         ^
+..\src\Parcial1.c:39:41: note: (near initialization for 'arrayClientesUnicos')
+..\src\Parcial1.c:39:43: warning: excess elements in scalar initializer
+   39 |  int arrayClientesUnicos = {9,9,9,9,9,9,9,9,9,9,9,9,9,9,9};
+      |                                           ^
+..\src\Parcial1.c:39:43: note: (near initialization for 'arrayClientesUnicos')
+..\src\Parcial1.c:39:45: warning: excess elements in scalar initializer
+   39 |  int arrayClientesUnicos = {9,9,9,9,9,9,9,9,9,9,9,9,9,9,9};
+      |                                             ^
+..\src\Parcial1.c:39:45: note: (near initialization for 'arrayClientesUnicos')
+..\src\Parcial1.c:39:47: warning: excess elements in scalar initializer
+   39 |  int arrayClientesUnicos = {9,9,9,9,9,9,9,9,9,9,9,9,9,9,9};
+      |                                               ^
+..\src\Parcial1.c:39:47: note: (near initialization for 'arrayClientesUnicos')
+..\src\Parcial1.c:39:49: warning: excess elements in scalar initializer
+   39 |  int arrayClientesUnicos = {9,9,9,9,9,9,9,9,9,9,9,9,9,9,9};
+      |                                                 ^
+..\src\Parcial1.c:39:49: note: (near initialization for 'arrayClientesUnicos')
+..\src\Parcial1.c:39:51: warning: excess elements in scalar initializer
+   39 |  int arrayClientesUnicos = {9,9,9,9,9,9,9,9,9,9,9,9,9,9,9};
+      |                                                   ^
+..\src\Parcial1.c:39:51: note: (near initialization for 'arrayClientesUnicos')
+..\src\Parcial1.c:39:53: warning: excess elements in scalar initializer
+   39 |  int arrayClientesUnicos = {9,9,9,9,9,9,9,9,9,9,9,9,9,9,9};
+      |                                                     ^
+..\src\Parcial1.c:39:53: note: (near initialization for 'arrayClientesUnicos')
+..\src\Parcial1.c:39:55: warning: excess elements in scalar initializer
+   39 |  int arrayClientesUnicos = {9,9,9,9,9,9,9,9,9,9,9,9,9,9,9};
+      |                                                       ^
+..\src\Parcial1.c:39:55: note: (near initialization for 'arrayClientesUnicos')
+..\src\Parcial1.c:39:57: warning: excess elements in scalar initializer
+   39 |  int arrayClientesUnicos = {9,9,9,9,9,9,9,9,9,9,9,9,9,9,9};
+      |                                                         ^
+..\src\Parcial1.c:39:57: note: (near initialization for 'arrayClientesUnicos')
+..\src\Parcial1.c:222:39: warning: passing argument 1 of 'info_getPublicacionClientesUnicos' makes pointer from integer without a cast [-Wint-conversion]
+  222 |     info_getPublicacionClientesUnicos(arrayClientesUnicos, ARRAYCLIENTESUNICOS_LEN, arrayPublicaciones, ARRAYPUBLICACIONES_LEN);
+      |                                       ^~~~~~~~~~~~~~~~~~~
+      |                                       |
+      |                                       int
+In file included from ..\src\Parcial1.c:17:
+..\src\Informes.h:11:44: note: expected 'int *' but argument is of type 'int'
+   11 | int info_getPublicacionClientesUnicos(int* arrayClientesUnicos,int limiteClientesUnicos,Publicacion* array,int limite);
+      |                                       ~~~~~^~~~~~~~~~~~~~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:30:48 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:39:31: warning: excess elements in scalar initializer
+   39 |  int arrayClientesUnicos = {9,9,9,9,9,9,9,9,9};
+      |                               ^
+..\src\Parcial1.c:39:31: note: (near initialization for 'arrayClientesUnicos')
+..\src\Parcial1.c:39:33: warning: excess elements in scalar initializer
+   39 |  int arrayClientesUnicos = {9,9,9,9,9,9,9,9,9};
+      |                                 ^
+..\src\Parcial1.c:39:33: note: (near initialization for 'arrayClientesUnicos')
+..\src\Parcial1.c:39:35: warning: excess elements in scalar initializer
+   39 |  int arrayClientesUnicos = {9,9,9,9,9,9,9,9,9};
+      |                                   ^
+..\src\Parcial1.c:39:35: note: (near initialization for 'arrayClientesUnicos')
+..\src\Parcial1.c:39:37: warning: excess elements in scalar initializer
+   39 |  int arrayClientesUnicos = {9,9,9,9,9,9,9,9,9};
+      |                                     ^
+..\src\Parcial1.c:39:37: note: (near initialization for 'arrayClientesUnicos')
+..\src\Parcial1.c:39:39: warning: excess elements in scalar initializer
+   39 |  int arrayClientesUnicos = {9,9,9,9,9,9,9,9,9};
+      |                                       ^
+..\src\Parcial1.c:39:39: note: (near initialization for 'arrayClientesUnicos')
+..\src\Parcial1.c:39:41: warning: excess elements in scalar initializer
+   39 |  int arrayClientesUnicos = {9,9,9,9,9,9,9,9,9};
+      |                                         ^
+..\src\Parcial1.c:39:41: note: (near initialization for 'arrayClientesUnicos')
+..\src\Parcial1.c:39:43: warning: excess elements in scalar initializer
+   39 |  int arrayClientesUnicos = {9,9,9,9,9,9,9,9,9};
+      |                                           ^
+..\src\Parcial1.c:39:43: note: (near initialization for 'arrayClientesUnicos')
+..\src\Parcial1.c:39:45: warning: excess elements in scalar initializer
+   39 |  int arrayClientesUnicos = {9,9,9,9,9,9,9,9,9};
+      |                                             ^
+..\src\Parcial1.c:39:45: note: (near initialization for 'arrayClientesUnicos')
+..\src\Parcial1.c:222:39: warning: passing argument 1 of 'info_getPublicacionClientesUnicos' makes pointer from integer without a cast [-Wint-conversion]
+  222 |     info_getPublicacionClientesUnicos(arrayClientesUnicos, ARRAYCLIENTESUNICOS_LEN, arrayPublicaciones, ARRAYPUBLICACIONES_LEN);
+      |                                       ^~~~~~~~~~~~~~~~~~~
+      |                                       |
+      |                                       int
+In file included from ..\src\Parcial1.c:17:
+..\src\Informes.h:11:44: note: expected 'int *' but argument is of type 'int'
+   11 | int info_getPublicacionClientesUnicos(int* arrayClientesUnicos,int limiteClientesUnicos,Publicacion* array,int limite);
+      |                                       ~~~~~^~~~~~~~~~~~~~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:32:06 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:32:10 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+12:34:00 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:34:03 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+12:38:29 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+12:41:13 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:41:17 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+12:42:56 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:39:6: warning: variable 'len_arrayClientesUnicos' set but not used [-Wunused-but-set-variable]
+   39 |  int len_arrayClientesUnicos;
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+12:43:23 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:39:6: warning: variable 'len_arrayClientesUnicos' set but not used [-Wunused-but-set-variable]
+   39 |  int len_arrayClientesUnicos;
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+Info: Nothing to build for Parcial1
+Info: Nothing to build for Parcial1
+Info: Nothing to build for Parcial1
+12:44:24 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:39:6: warning: variable 'len_arrayClientesUnicos' set but not used [-Wunused-but-set-variable]
+   39 |  int len_arrayClientesUnicos;
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:44:50 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+13:00:57 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:225:5: warning: implicit declaration of function 'info_clienteConMasAvisos' [-Wimplicit-function-declaration]
+  225 |     info_clienteConMasAvisos(arrayClientesUnicos, ARRAYCLIENTESUNICOS_LEN, arrayPublicaciones, ARRAYPUBLICACIONES_LEN);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:01:13 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+13:01:49 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+13:03:19 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+13:05:14 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:05:17 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+13:06:37 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+13:48:21 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:48:25 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+13:52:41 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+..\src\Informes.c: In function 'info_clienteConMasAvisos':
+..\src\Informes.c:138:15: warning: 'maximo' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  138 |    if (i == 0 || auxiliarAvisos >= maximo)
+      |        ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:53:04 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+13:54:39 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+13:56:39 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+13:58:36 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+13:59:35 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+14:00:28 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:00:31 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+14:01:06 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:01:10 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+14:03:19 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+14:04:57 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+..\src\Informes.c: In function 'info_clienteConMasAvisos':
+..\src\Informes.c:119:6: warning: unused variable 'maximoId' [-Wunused-variable]
+  119 |  int maximoId;
+      |      ^~~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:05:00 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+14:06:00 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+..\src\Informes.c: In function 'info_clienteConMasAvisos':
+..\src\Informes.c:119:6: warning: unused variable 'maximoId' [-Wunused-variable]
+  119 |  int maximoId;
+      |      ^~~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+14:06:34 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+14:10:41 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+..\src\Informes.c: In function 'info_clienteConMasAvisos':
+..\src\Informes.c:119:6: warning: unused variable 'maximoId' [-Wunused-variable]
+  119 |  int maximoId;
+      |      ^~~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:11:47 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+14:16:37 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+..\src\Informes.c: In function 'info_clienteConMasAvisos':
+..\src\Informes.c:119:6: warning: unused variable 'maximoId' [-Wunused-variable]
+  119 |  int maximoId;
+      |      ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:230:32: error: incompatible type for argument 1 of 'cli_imprimir'
+  230 |      cli_imprimir(arrayClientes[auxiliarIndiceCliente]);
+      |                   ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+      |                                |
+      |                                Cliente {aka struct <anonymous>}
+In file included from ..\src\Parcial1.c:15:
+..\src\Cliente.h:21:27: note: expected 'Cliente *' {aka 'struct <anonymous> *'} but argument is of type 'Cliente' {aka 'struct <anonymous>'}
+   21 | int cli_imprimir(Cliente* auxProducto);
+      |                  ~~~~~~~~~^~~~~~~~~~~
+14:18:37 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+Info: Nothing to build for Parcial1
+14:20:04 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+14:21:42 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:226:78: warning: passing argument 3 of 'cli_buscarId' makes integer from pointer without a cast [-Wint-conversion]
+  226 |      (auxiliarIndiceCliente = cli_buscarId(arrayClientes, ARRAYCLIENTES_LEN, &auxiliarIdCliente) >= 0))
+      |                                                                              ^~~~~~~~~~~~~~~~~~
+      |                                                                              |
+      |                                                                              int *
+In file included from ..\src\Parcial1.c:15:
+..\src\Cliente.h:27:51: note: expected 'int' but argument is of type 'int *'
+   27 | int cli_buscarId(Cliente array[], int limite, int valorBuscado);
+      |                                               ~~~~^~~~~~~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+14:22:39 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+14:24:03 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+14:26:11 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+14:26:49 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+15:29:19 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'info_clienteConMasAvisosConCriterio':
+..\src\Parcial1.c:25:16: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   25 | int main(void) {
+      |                ^
+..\src\Parcial1.c:250: error: expected '{' at end of input
+  250 | }
+      | 
+..\src\Parcial1.c:250:1: warning: control reaches end of non-void function [-Wreturn-type]
+  250 | }
+      | ^
+15:29:54 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+..\src\Informes.c: In function 'info_clienteConMasAvisos':
+..\src\Informes.c:121:6: warning: unused variable 'maximoId' [-Wunused-variable]
+  121 |  int maximoId;
+      |      ^~~~~~~~
+..\src\Informes.c: In function 'info_clienteConMasAvisosConCriterio':
+..\src\Informes.c:175:6: warning: unused variable 'maximoId' [-Wunused-variable]
+  175 |  int maximoId;
+      |      ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:30:33 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:30:37 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+15:32:47 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:227:84: error: too many arguments to function 'info_getPublicacionClientesUnicos'
+  227 |      (auxiliarIdCliente = info_clienteConMasAvisosConCriterio(arrayClientesUnicos, info_getPublicacionClientesUnicos(arrayClientesUnicos, ARRAYCLIENTESUNICOS_LEN, arrayPublicaciones, ARRAYPUBLICACIONES_LEN,0), arrayPublicaciones, ARRAYPUBLICACIONES_LEN)) >= 0 &&
+      |                                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ..\src\Parcial1.c:17:
+..\src\Informes.h:11:5: note: declared here
+   11 | int info_getPublicacionClientesUnicos(int* arrayClientesUnicos,int limiteClientesUnicos,Publicacion* array,int limite);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Parcial1.c:227:27: error: too few arguments to function 'info_clienteConMasAvisosConCriterio'
+  227 |      (auxiliarIdCliente = info_clienteConMasAvisosConCriterio(arrayClientesUnicos, info_getPublicacionClientesUnicos(arrayClientesUnicos, ARRAYCLIENTESUNICOS_LEN, arrayPublicaciones, ARRAYPUBLICACIONES_LEN,0), arrayPublicaciones, ARRAYPUBLICACIONES_LEN)) >= 0 &&
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ..\src\Parcial1.c:17:
+..\src\Informes.h:14:5: note: declared here
+   14 | int info_clienteConMasAvisosConCriterio (int* arrayClientesUnicos,int len,Publicacion* arrayPublicaciones,int limitePublicaciones, int criterio);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+15:33:16 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+15:34:08 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+15:35:33 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+15:37:29 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+15:38:42 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:227:27: error: too many arguments to function 'info_clienteConMasAvisosConCriterio'
+  227 |      (auxiliarIdCliente = info_clienteConMasAvisosConCriterio(arrayClientesUnicos, info_getPublicacionClientesUnicos(arrayClientesUnicos, ARRAYCLIENTESUNICOS_LEN, arrayPublicaciones, ARRAYPUBLICACIONES_LEN), arrayPublicaciones, ARRAYPUBLICACIONES_LEN,0)) >= 0 &&
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ..\src\Parcial1.c:17:
+..\src\Informes.h:14:5: note: declared here
+   14 | int info_clienteConMasAvisosConCriterio (int* arrayClientesUnicos,int len,Publicacion* arrayPublicaciones,int limitePublicaciones);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+15:39:01 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+15:39:51 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+15:41:36 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+15:43:26 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+15:43:57 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+15:45:13 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+16:14:15 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+16:17:19 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+16:18:33 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+16:19:32 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:41:24: error: 'ARRAYRUBROSUNICOS_LEN' undeclared (first use in this function); did you mean 'ARRAYRUBROSSUNICOS_LEN'?
+   41 |  int arrayRubrosUnicos[ARRAYRUBROSUNICOS_LEN];
+      |                        ^~~~~~~~~~~~~~~~~~~~~
+      |                        ARRAYRUBROSSUNICOS_LEN
+..\src\Parcial1.c:41:24: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Parcial1.c:41:6: warning: unused variable 'arrayRubrosUnicos' [-Wunused-variable]
+   41 |  int arrayRubrosUnicos[ARRAYRUBROSUNICOS_LEN];
+      |      ^~~~~~~~~~~~~~~~~
+16:19:56 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+..\src\Parcial1.c: In function 'main':
+..\src\Parcial1.c:41:6: warning: unused variable 'arrayRubrosUnicos' [-Wunused-variable]
+   41 |  int arrayRubrosUnicos[ARRAYRUBROSUNICOS_LEN];
+      |      ^~~~~~~~~~~~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+16:22:22 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+16:26:07 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+16:27:19 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+16:28:47 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:28:50 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+16:30:12 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:30:15 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+16:31:13 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+16:37:19 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+16:43:08 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+16:44:17 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+16:47:00 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+16:48:39 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+16:52:45 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+16:53:51 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+16:54:56 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+16:57:19 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+16:58:38 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:58:41 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+17:00:52 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+17:02:37 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+17:03:21 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+17:04:30 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+17:05:17 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+17:05:56 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+17:07:19 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+17:08:20 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+06:59:03 **** Rebuild of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+07:00:49 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Parcial1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+07:00:55 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+07:13:39 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+07:30:53 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+07:33:20 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+07:01:51 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+07:07:52 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+07:08:36 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+19:05:20 **** Rebuild of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+Info: Nothing to build for Parcial1
+Info: Nothing to build for Parcial1
+Info: Nothing to build for Parcial1
+Info: Nothing to build for Parcial1
+Info: Nothing to build for Parcial1
+19:57:05 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+19:58:48 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c:24:12: warning: 'isMail' used but never defined
+   24 | static int isMail(char* cadena,int longitud);
+      |            ^~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\utn.o: in function `getMail':
+D:\Dropbox\Personal\Programacion\Programacion1_Lab_1\workspace\parcial_laboratorio_1\Parcial1\Debug/../src/utn.c:169: undefined reference to `isMail'
+collect2.exe: error: ld returned 1 exit status
+19:59:15 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c:17:12: warning: 'getMail' used but never defined
+   17 | static int getMail(char* pResultado, int longitud);
+      |            ^~~~~~~
+..\src\utn.c:24:12: warning: 'isMail' declared 'static' but never defined [-Wunused-function]
+   24 | static int isMail(char* cadena,int longitud);
+      |            ^~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\utn.o: in function `utn_getMail':
+D:\Dropbox\Personal\Programacion\Programacion1_Lab_1\workspace\parcial_laboratorio_1\Parcial1\Debug/../src/utn.c:615: undefined reference to `getMail'
+collect2.exe: error: ld returned 1 exit status
+19:59:50 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'utn_getMail':
+..\src\utn.c:613:6: warning: implicit declaration of function 'getMail' [-Wimplicit-function-declaration]
+  613 |   if(getMail(bufferString,sizeof(bufferString)) == 0 && strnlen(bufferString,sizeof(bufferString)) < longitud )
+      |      ^~~~~~~
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\utn.o: in function `utn_getMail':
+D:\Dropbox\Personal\Programacion\Programacion1_Lab_1\workspace\parcial_laboratorio_1\Parcial1\Debug/../src/utn.c:613: undefined reference to `getMail'
+collect2.exe: error: ld returned 1 exit status
+20:00:17 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+20:01:50 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
+20:03:41 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Publicacion.o" "..\\src\\Publicacion.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+20:04:42 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+20:06:44 **** Incremental Build of configuration Debug for project Parcial1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial1.o" "..\\src\\Parcial1.c" 
+gcc -o Parcial1 "src\\Cliente.o" "src\\Informes.o" "src\\Parcial1.o" "src\\Publicacion.o" "src\\utn.o" 
+Info: Nothing to build for Parcial1
